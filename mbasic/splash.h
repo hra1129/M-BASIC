@@ -1,0 +1,23 @@
+// --------------------------------------------------------------------
+// @file mbasic.ino
+// @author HRA!
+// @brief M-BASIC for M5Cardputer
+// @version 0.1
+// @date 2023-10-20
+//
+//
+// @Hardwares: M5Cardputer
+// @Platform Version: Arduino M5Stack Board Manager v2.0.7
+// @Dependent Library:
+// M5GFX: https://github.com/m5stack/M5GFX
+// M5Unified: https://github.com/m5stack/M5Unified
+// --------------------------------------------------------------------
+#include "state.h"
+
+#ifndef __SPLASH_H__
+#define __SPLASH_H__
+
+STATE_T splash_init( LovyanGFX* p_gfx );
+STATE_T splash_normal( LovyanGFX* p_gfx );
+
+#endif
